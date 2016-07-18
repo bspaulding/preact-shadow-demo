@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>react-shadow-css</title>
+		<style>
+			html, body {
+				font-family: Open Sans, sans-serif;
+			}
+			h1 {
+				border-bottom: 1px solid #ccc;
+			}
+			.box {
+				background-color: green;
+				width: 100px;
+				height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>No Shadow DOM</h1>
+		<div id="react-shadow-css-demo-no-shadow"></div>
+		<h1>Shadow DOM</h1>
+		<div id="react-shadow-css-demo"></div>
+		<h1>Shadow DOM + Custom Element</h1>
+		<x-test-app foo="bar" baz="buzz"></x-test-app>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.min.js"></script> -->
+		<script src="bundle.js"></script>
+	</body>
+</html>
